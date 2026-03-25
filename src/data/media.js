@@ -38,14 +38,14 @@ export const media = [
   {
     id: 6,
     title: "The Godfather",
-    cover: "https://via.placeholder.com/300x450/390ca0/ffffff?text=Godfather",
+    cover: "https://m.media-amazon.com/images/I/8157ug7+K+L.jpg",
     rating: 9.2,
     type: "movie"
   },
   {
     id: 7,
     title: "Pulp Fiction",
-    cover: "https://via.placeholder.com/300x450/390ca0/ffffff?text=Pulp+Fiction",
+    cover: "\assets\movie_covers\Pulp_Fiction.jpg",
     rating: 8.9,
     type: "movie"
   },
@@ -109,35 +109,35 @@ export const media = [
   {
     id: 16,
     title: "The Sopranos",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=Sopranos",
+    cover: "https://m.media-amazon.com/images/I/41+hF4S-cqL.jpg",
     rating: 9.2,
     type: "tvshow"
   },
   {
     id: 17,
     title: "The Wire",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=The+Wire",
+    cover: "https://m.media-amazon.com/images/I/8157ug7+K+L.jpg",
     rating: 9.3,
     type: "tvshow"
   },
   {
     id: 18,
     title: "Friends",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=Friends",
+    cover: "https://image.tmdb.org/t/p/original/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
     rating: 8.9,
     type: "tvshow"
   },
   {
     id: 19,
     title: "The Office",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=The+Office",
+    cover: "https://masterimages.moviepostershop.com/the-office-tv-movie-poster-2005-1010481157.jpg",
     rating: 9.0,
     type: "tvshow"
   },
   {
     id: 20,
     title: "Better Call Saul",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=Better+Call+Saul",
+    cover: "https://m.media-amazon.com/images/I/71xd2Jh8U1L._AC_UF894,1000_QL80_.jpg",
     rating: 9.0,
     type: "tvshow"
   },
