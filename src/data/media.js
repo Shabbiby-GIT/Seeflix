@@ -1,3 +1,22 @@
+import theMatrixCover from "../assets/movie_covers/The_Matrix.png";
+import goodfellasCover from "../assets/movie_covers/Godfellas.jpg";
+import FightclubCover from "../assets/movie_covers/FightClub.png";
+import pulpfictionCover from "../assets/movie_covers/Pulp_Fiction.jpg";
+import shawshankCover from "../assets/movie_covers/Shawshank.jpg";
+import thewireCover from "../assets/movie_covers/The Wire.jpg";
+import ForrestGumpCover from "../assets/movie_covers/Forrest Gump.jpg";
+import godfatherCover from "../assets/movie_covers/Godfather.jpg";
+
+import ChernobylCover from "../assets/show_covers/Chernobyl.jpg";
+import theCrownCover from "../assets/show_covers/The_Crown.png";
+import LastOfUsCover from "../assets/show_covers/TheLOF.jpg";
+import SuccessionCover from "../assets/show_covers/Succession.jpg";
+import sopranosCover from "../assets/show_covers/Sopranos.jpg";
+import saulcover from "../assets/show_covers/Saul.png";
+import theofficeCover from "../assets/show_covers/TheOffice1.webp";
+import friendsCover from "../assets/show_covers/friends.png";
+
+
 export const media = [
   // Movies (12)
   {
@@ -38,49 +57,49 @@ export const media = [
   {
     id: 6,
     title: "The Godfather",
-    cover: "https://m.media-amazon.com/images/I/8157ug7+K+L.jpg",
+    cover: godfatherCover,
     rating: 9.2,
     type: "movie"
   },
-  {
-    id: 7,
-    title: "Pulp Fiction",
-    cover: "\assets\movie_covers\Pulp_Fiction.jpg",
-    rating: 8.9,
+
+  {id: 7,   
+    title: "Pulp Fiction",   
+    cover: pulpfictionCover,    
+    rating: 8.9,   
     type: "movie"
   },
   {
     id: 8,
     title: "Forrest Gump",
-    cover: "https://via.placeholder.com/300x450/390ca0/ffffff?text=Forrest+Gump",
+    cover: ForrestGumpCover,
     rating: 8.8,
     type: "movie"
   },
   {
     id: 9,
     title: "The Shawshank Redemption",
-    cover: "https://via.placeholder.com/300x450/390ca0/ffffff?text=Shawshank",
+    cover: shawshankCover,
     rating: 9.3,
     type: "movie"
   },
   {
     id: 10,
     title: "Fight Club",
-    cover: "https://via.placeholder.com/300x450/390ca0/ffffff?text=Fight+Club",
+    cover: FightclubCover,
     rating: 8.8,
     type: "movie"
   },
   {
     id: 11,
     title: "The Matrix",
-    cover: "https://via.placeholder.com/300x450/390ca0/ffffff?text=The+Matrix",
+    cover: theMatrixCover,
     rating: 8.7,
     type: "movie"
   },
   {
     id: 12,
     title: "Goodfellas",
-    cover: "https://via.placeholder.com/300x450/390ca0/ffffff?text=Goodfellas",
+    cover: goodfellasCover,
     rating: 8.7,
     type: "movie"
   },
@@ -109,63 +128,63 @@ export const media = [
   {
     id: 16,
     title: "The Sopranos",
-    cover: "https://m.media-amazon.com/images/I/41+hF4S-cqL.jpg",
+    cover: sopranosCover,
     rating: 9.2,
     type: "tvshow"
   },
   {
     id: 17,
     title: "The Wire",
-    cover: "https://m.media-amazon.com/images/I/8157ug7+K+L.jpg",
+    cover: thewireCover,
     rating: 9.3,
     type: "tvshow"
   },
   {
     id: 18,
     title: "Friends",
-    cover: "https://image.tmdb.org/t/p/original/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+    cover: friendsCover,
     rating: 8.9,
     type: "tvshow"
   },
   {
     id: 19,
     title: "The Office",
-    cover: "https://masterimages.moviepostershop.com/the-office-tv-movie-poster-2005-1010481157.jpg",
+    cover: theofficeCover,
     rating: 9.0,
     type: "tvshow"
   },
   {
     id: 20,
     title: "Better Call Saul",
-    cover: "https://m.media-amazon.com/images/I/71xd2Jh8U1L._AC_UF894,1000_QL80_.jpg",
+    cover: saulcover,
     rating: 9.0,
     type: "tvshow"
   },
   {
     id: 21,
     title: "Chernobyl",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=Chernobyl",
+    cover: ChernobylCover,
     rating: 9.4,
     type: "tvshow"
   },
   {
     id: 22,
     title: "The Crown",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=The+Crown",
+    cover: theCrownCover,
     rating: 8.6,
     type: "tvshow"
   },
   {
     id: 23,
     title: "Succession",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=Succession",
+    cover: SuccessionCover,
     rating: 8.8,
     type: "tvshow"
   },
   {
     id: 24,
     title: "The Last of Us",
-    cover: "https://via.placeholder.com/300x450/e74c3c/ffffff?text=Last+of+Us",
+    cover: LastOfUsCover,
     rating: 8.8,
     type: "tvshow"
   }
